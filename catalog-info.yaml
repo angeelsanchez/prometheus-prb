@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: angeelsanchez/prometheus-prb
     backstage.io/techdocs-ref: dir:.
     prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
-    prometheus.io/path: "https://thanos-query.aws.neoris.cloud/metrics"           # Ruta relativa al punto de enlace de métricas
+    prometheus.io/path: "metrics"           # Ruta relativa al punto de enlace de métricas
     #prometheus.io/port: "8080"
     prometheus.io/alert: all
     #prometheus.io/alert: 'Excessive Memory Usage'
