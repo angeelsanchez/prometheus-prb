@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
     prometheus.io/path: "metrics"           # Ruta relativa al punto de enlace de métricas
-    prometheus.io/port: "8080"
+    prometheus.io/port: "9090"
     prometheus.io/alert: 'ExcessiveMemoryUsage'
     #prometheus.io/alert: 'Excessive Memory Usage'
     prometheus.io/rule: go_gc_duration_seconds
