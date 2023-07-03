@@ -6,10 +6,10 @@ metadata:
   annotations:
     github.com/project-slug: angeelsanchez/prometheus-prb
     backstage.io/techdocs-ref: dir:.
-    prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
-    prometheus.io/path: "metrics"           # Ruta relativa al punto de enlace de métricas
-    prometheus.io/port: "8080"
-    prometheus.io/alert: 'Excessive Memory Usage'
+    #prometheus.io/scrape: "true"             # Habilita la recolección de métricas de Prometheus
+    #prometheus.io/path: "metrics"           # Ruta relativa al punto de enlace de métricas
+    #prometheus.io/port: "8080"
+    prometheus.io/alert: all
     #prometheus.io/alert: 'Excessive Memory Usage'
     prometheus.io/rule: go_gc_duration_seconds
     #prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
